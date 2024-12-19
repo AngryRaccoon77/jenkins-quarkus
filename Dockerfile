@@ -1,4 +1,4 @@
-FROM quay.io/quarkus/quarkus-micro-image:2.0
+FROM openjdk:11-jre-slim
 WORKDIR /app
 
 COPY target/quarkus-app/lib/ /app/lib/
